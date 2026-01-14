@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.body{
+    width: 100%;
+    height: 1300PX ;
+    
+}
+.background{
+    background-image: url(./image.jpg/690510.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+        transition: 100ms;
+}
+
+.bleach-background{
+    background-image: url(./image.jpg/759145.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 250ms;
+}
+.black-clover-background{
+    background-image: url(./image.jpg/1143250.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+        transition: 100ms;
+}
+
+
+
+.drstone-background{
+     background-image: url(./image.jpg/300291.png);
+        background-repeat: no-repeat;
+    background-size: cover;
+        transition: 233ms;
+}
+
+.demon-slayer-background{
+    background-image: url(./image.jpg/1398431.jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+        transition: 250ms;
+}
+.header{
+    background-color:rgba(0, 0, 0, 0.486) ;
+    width: 100%;
+    height: 83px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header>img{
+    cursor: pointer;
+}
+.input{
+width: 422px;
+height: 47px;
+background-color: #fff;
+display: flex;
+align-items: center;
+}
+
+.input>input{
+    width: 155px;
+    height: 25px;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    outline: none;
+    margin-right: 170px;
+}
+
+.input>button{
+    width: 56px;
+    height: 36px;
+    border-radius: 3px;
+    background-color: #757373;
+    margin-left: 10px ;
+    color: #FFFFFF;
+    border: none;
+}
+
+.input>button:hover{
+    background-color: #75737369;
+    color: black;
+}
+.input>img{
+    cursor: pointer;
+}
+.header-right{
+    width: 70%;
+    height: 83px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: #FFFFFF;
+    font-family: Lucida Console;
+    justify-content: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.ul>li:hover{
+color: #ffffff86;
+}
+
+
+
+.main{
+    width: 100%;
+    height: 1220px;
+    display: flex;
+    background-color: #00000088;
+}
+
+.text-box{
+    width: 40%;
+    height: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.first-text{
+    width: 800px;
+    height: 300px;
+    font-weight: lighter;
+    font-size: 110px;
+    color:#fff;
+    text-shadow: 10px 10px 20px black;
+    font-family:fantasy;
+    line-height: 90%;
+    letter-spacing: 5px;
+    margin-left: 210px;
+}
+
+.second-text{
+    width: 700px;
+    height: 180px;
+    color:#fff;
+    text-shadow: 10px 10px 20px black;
+    font-size: 24px;
+    line-height: 140%;
+    margin-top: 100px;
+    margin-left: 210px;
+}
+.second-text>h3:hover{
+    cursor: pointer;
+    color:#ffffff75
+}
+
+.explore{
+ width: 700px;
+ height: 50px;
+ display: flex;
+ align-items: center;
+ gap: 20px;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 3px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle:hover{
+    background-color: #ffffff2f;
+    cursor: pointer;
+}
+.explore-anime{
+width: 240px;
+height: 60px;
+font-size: 24px;
+border-radius: 17px;
+border: 3px solid #fff;
+color: #fff;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.explore-anime:hover{
+    background-color: #7573737e;
+    cursor: pointer;
+
+}
+
+.img-box{
+    width: 60%;
+    height: 1200px;
+    color: #fff;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.box-text{
+    width: 800px;
+    text-shadow: 5px 5px 5px black;
+}
+
+.images{
+    width: 60%;
+    height: 300px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: 250px ;
+    gap: 30px;
+}
+.images>div{
+    border-radius: 20px;
+    box-shadow: rgba(255, 255, 255, 0.603) -5px 5px, rgba(224, 221, 223, 0.3) -10px 10px, rgba(95, 87, 92, 0.2) -15px 15px, rgba(255, 218, 241, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+.images>div:hover{
+    box-shadow: rgba(0, 0, 0, 0.664) -5px 5px, rgba(0, 0, 0, 0.3) -10px 10px, rgba(3, 3, 3, 0.2) -15px 15px, rgba(0, 0, 0, 0.288) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    transition: 1s;
+}
+.images>div>img{
+    width: 179px;
+    height: 250px;
+    border-radius: 20px;
+    cursor: pointer;
+
+
+}
+
+.box{
+ position: relative;
+transition: all 1s ease-in-out;
+}
+
+
+.images:hover >div>img{
+box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+
+.box:hover{
+    width: 200px;
+    height: 300px;
+    z-index: 1;
+    margin: 0;
+    transform: rotateY('');
+       margin-left: 20px;
+       transition: step-start
+}
+.boxes{
+    display: flex;
+    justify-content: space-around;
+   position: absolute;
+}
+
+
+.box>img:hover{
+        width: 200px;
+    height: 300px;
+    z-index: 1;
+    margin: 0;
+    transform: rotateY('');
+}
